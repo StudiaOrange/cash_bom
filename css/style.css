@@ -111,6 +111,7 @@ box-shadow: -7px 18px 8px -7px rgba(34, 60, 80, 0.2);
 	margin-top: 150px;
 	background-color: bisque;
 	border-radius: 20px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .main__content-right{
@@ -119,6 +120,7 @@ box-shadow: -7px 18px 8px -7px rgba(34, 60, 80, 0.2);
 	margin-top: 150px;
 	background-color: #DDF7E1;
 	border-radius: 20px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .content__left-h1{
