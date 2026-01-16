@@ -716,6 +716,8 @@ img {
 
 .testim {
 	margin-top: 250px;
+  width: 100%;
+  height: 500px;
 		-webkit-transform: translatey(-50%);
 		-moz-transform: translatey(-50%);
 		-ms-transform: translatey(-50%);
@@ -727,6 +729,13 @@ img {
     rgba(67, 69, 112, 1) 3%,
     rgba(35, 36, 57, 1) 60%
   );
+}
+
+.testim-h1{
+    text-align: center;
+  font-size: 54px;
+  color: white;
+  margin-bottom: 100px;
 }
 
 .testim .wrap {
