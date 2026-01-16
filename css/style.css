@@ -634,7 +634,7 @@ img {
 
 .main__content {
   width: 100%;
-  height: 600px;
+  height: 700px;
   background: rgb(67, 69, 112);
   background: radial-gradient(
     circle,
@@ -656,28 +656,32 @@ img {
   gap: 30px;
 }
 
-.content__block-left {
+
+
+.block__left-item {
   width: 550px;
   height: 150px;
   border: 2px solid orange;
   border-radius: 20px;
+	margin-top: 10px;
 }
 
-.block__left-item h1{
-	color: #fff;
-	font-size: 30px;
-	padding: 10px;
+.block__left-item h1 {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
 }
 
-.content__block-right {
+.block__right-item {
   width: 550px;
   height: 150px;
   border: 2px solid green;
   border-radius: 20px;
+	margin-top: 10px;
 }
 
-.block__right-item h1{
-	font-size: 30px;
-	color: #fff;
-	padding: 10px;
+.block__right-item h1 {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
 }
