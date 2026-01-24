@@ -456,10 +456,10 @@ img {
 }
 
 .about__block__left p{
+  max-width: 600px;
   font-size: 18px;
   color: #fff;
 }
-
 .about__block__left strong{
   font-size: 26px;
   color: #fff;
@@ -468,31 +468,26 @@ img {
 .about__items{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 60px;
 }
 
 .about__item-green{
-  width: 150px;
-  height: 150px;
-  background-color: green;
-  border-radius: 50%;
+  width: 130px;
+  height: 130px;
 }
 
+
 .about__item-yellow{
-  width: 150px;
-  height: 150px;
-  background-color: yellow;
+  width: 130px;
+  height: 130px;
 }
 
 .about__item-blue{
-  width: 150px;
-  height: 150px;
-  background-color:blue ;
+  width: 130px;
+  height: 130px;
 }
 
 .about__item-orange{
-  width: 150px;
-  height: 150px;
-  background-color: orange;
-  border-radius: 30px;
+  width: 130px;
+  height: 130px;
 }
