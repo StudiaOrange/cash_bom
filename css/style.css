@@ -6,6 +6,12 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background: rgb(67, 69, 112);
+  background: radial-gradient(
+    circle,
+    rgba(67, 69, 112, 1) 3%,
+    rgba(35, 36, 57, 1) 60%
+  );
 }
 
 * {
@@ -13,11 +19,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 .container {
   max-width: 1300px;
@@ -162,6 +167,39 @@ img {
   width: 100%;
   pointer-events: none;
   user-select: none;
+}
+
+.banner__block {
+  width: 100%;
+  height: 160px;
+  background-color: #559b9a;
+  margin: 0 auto;
+
+}
+
+.banner__block_item{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.banner__block_left h1{
+  font-size: 54px;
+}
+.banner__block_left p{
+  font-size: 30px;
+}
+.banner__block_center h1{
+  font-size: 54px;
+}
+.banner__block_center p{
+  font-size: 30px;
+}
+.banner__block_right h1{
+  font-size: 54px;
+}
+.banner__block_right p{
+  font-size: 30px;
 }
 
 /* HOME */
@@ -602,6 +640,7 @@ img {
   text-align: center;
   font-size: 54px;
   color: white;
+  padding-top: 100px;
 }
 .aside__item {
   display: flex;
@@ -753,7 +792,7 @@ img {
     color: #eee;
     cursor: pointer;
     font-size: 2em;
-    top: 50%;
+    top: 62%;
     -webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
@@ -1314,4 +1353,62 @@ img {
 		line-height: 25px;
 	}
 
+}
+
+
+
+
+/* после правки занести этот css */
+.about__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.about__block__left h1{
+  font-size: 36px;
+  color: #fff;
+}
+
+.about__block__left p{
+  font-size: 18px;
+  color: #fff;
+}
+
+.about__block__left strong{
+  font-size: 26px;
+  color: #fff;
+}
+
+.about__items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.about__item-green{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.about__item-yellow{
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.about__item-blue{
+  width: 150px;
+  height: 150px;
+  background-color:blue ;
+}
+
+.about__item-orange{
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  border-radius: 30px;
 }
